@@ -53,7 +53,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 20px 40px;
     /* background-color: rgb(219, 119, 219); */
     background-color: pink;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.229);
@@ -690,7 +690,7 @@ footer .copyright a {
 
 @media (max-width: 477px) {
     #header {
-        padding: 10px 30px;
+        padding: 10px 20px;
     }
 
     #hero {

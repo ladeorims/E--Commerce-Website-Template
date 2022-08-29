@@ -1,0 +1,54 @@
+#page-header {
+    background-image: url("image/about/header-image.jfif");
+}
+
+#page-header h2 {
+    color: black;
+}
+
+#page-header p {
+    color: black;
+}
+
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+#about-head img {
+    width: 50%;
+    height: auto;
+}
+
+#about-head div {
+    width: 50%;
+    padding-left: 40px;
+}
+
+@media (max-width: 799px) {
+    #about-head div h2 {
+        font-size: 40px;
+    }
+
+    #about-head div p {
+        text-align: justify;
+    }
+}
+
+@media (max-width: 477px) {
+    #about-head {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about-head img {
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    #about-head div {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+}
